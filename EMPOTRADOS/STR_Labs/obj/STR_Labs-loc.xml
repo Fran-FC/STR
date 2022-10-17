@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>/home/ALUMNO/frafolco/STR/STR_Labs/STR_Labs.gpr</vfs_file>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/ALUMNO/frafolco/STR/ADL-2018/examples/STM32F4_DISCO/accelerometer/src/main.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

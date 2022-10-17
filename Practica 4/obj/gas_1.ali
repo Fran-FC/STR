@@ -1,0 +1,123 @@
+V "GNAT Lib v7"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DELAY
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_RELATIVE_DELAY
+RV NO_SELECT_STATEMENTS
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+RV MAX_SELECT_ALTERNATIVES=3
+RV MAX_TASK_ENTRIES=1
+RV MAX_TASKS=1+
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U gas_1%b		gas_1.adb		ba29d99e NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.real_time.delays%s  a-retide.adb		a-retide.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W consola_compartida%s	consola_compartida.adb	consola_compartida.ali
+W system%s		system.ads		system.ali
+W system.parameters%s	s-parame.adb		s-parame.ali
+W system.soft_links%s	s-soflin.adb		s-soflin.ali
+W system.task_info%s	s-tasinf.adb		s-tasinf.ali
+W system.tasking%s	s-taskin.adb		s-taskin.ali
+W system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+W system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20170106103348 76789da1 ada%s
+D a-calend.ads		20160420090448 2d5f01d4 ada.calendar%s
+D a-caldel.ads		20140120152337 9f20b83d ada.calendar.delays%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-finali.ads		20151020095656 bf4f806b ada.finalization%s
+D a-reatim.ads		20160420090448 a87e2da7 ada.real_time%s
+D a-retide.ads		20090409150019 081cdaa4 ada.real_time.delays%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D consola_compartida.ads  20181012182528 b7f6ca8f consola_compartida%s
+D gas_1.adb		20191010100805 a5a13eb6 gas_1%b
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-c.ads		20110801143639 5421119b interfaces.c%s
+D system.ads		20170510173650 4635ec04 system%s
+D s-atacco.ads		20120515093410 4c36d12f system.address_to_access_conversions%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-finroo.ads		20120426095924 4ff27390 system.finalization_root%s
+D s-linux.ads		20150107101203 2fda6ad1 system.linux%s
+D s-multip.ads		20101011073009 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20190508155303 7b5577db system.os_constants%s
+D s-osinte.ads		20170314092617 ad16bc4a system.os_interface%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stausa.ads		20110804134155 017a0a05 system.stack_usage%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20140613095942 2b3f8252 system.task_info%s
+D s-taspri.ads		20141120144719 e3ab4429 system.task_primitives%s
+D s-taprop.ads		20140521131406 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20170112134946 05d6152c system.tasking%s
+D s-taprob.ads		20170106114239 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20170106115015 60ad3dae system.tasking.protected_objects.entries%s
+D s-tasren.ads		20120208100446 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20170112134946 5a53a7c6 system.tasking.stages%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
+X 1 ada.ads
+16K9*Ada 20e8 12|9r26 10r26
+X 6 a-reatim.ads
+39K13*Real_Time 187e18 12|9w30 10r30
+51O9*Time<duration> 12|38r16
+56O9*Time_Span<duration> 12|39r16
+63V13*Clock{51O9} 12|42s18
+67V14*"+"{51O9} 12|46s23
+124V13*Seconds{56O9} 12|39s29
+X 11 consola_compartida.ads
+1K9*Consola_Compartida 25e23 12|9w6 10r6
+3w14*Consola 12|62r16 68r19 71r19 74r19 80r19 83r19 86r19
+17U17 Put_Line 12|62s24 74s27 86s27
+22U17 Put_Line 12|68s27 71s27 80s27 83s27
+X 12 gas_1.adb
+12U11*Gas_1 12b11 116l5 116t10
+16t9 Reparto 37b14 49l8 49t15 113r4
+17Y13 Start 41b14 43l11 43t16 113s12
+20t9 Consumidor_Gasolina 94b14 101l8 101t27 114r4
+21Y13 Start 96b14 114s24
+24t9 Consumidor_Gasoil 103b14 110l8 110t25 115r4
+25Y13 Start 105b14 115s22
+28t9 Gasolinera 45r10 51b14 92l8 92t18 98r10 107r10 112r4
+29Y13 Start 55b14 112s15
+30Y13 Rellenar 30>23 30>33 45s21 58b20 63l17 63t25
+30i23 Gasolina{integer} 45r31 59r51 62r52
+30i33 Gasoil{integer} 45r48 60r53 62r88
+31Y13 Servir_Gasolina 31>30 65b20 76l17 76t32 98s21
+31i30 Pedido{integer} 67r19 73r54 74r63
+32Y13 Servir_Gasoil 32>28 78b20 88l17 88t30 107s21
+32i28 Pedido{integer} 79r19 85r56 86r61
+38o7 Next{6|51O9} 42m10 46m10 46r18 47r22
+39o7 Period{6|56O9} 46r25
+52i7 Cantidad_Super{integer} 59m16 59r34 67r28 68r78 69m19 70r22 71r78 73m19
+. 73r37 74r85
+53i7 Cantidad_Gasoil{integer} 60m16 60r35 79r28 80r77 81m19 82r22 83r76 85m19
+. 85r38 86r84
+58i30 Gasolina{integer}
+58i40 Gasoil{integer}
+65i37 Pedido{integer}
+78i35 Pedido{integer}
+X 26 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+

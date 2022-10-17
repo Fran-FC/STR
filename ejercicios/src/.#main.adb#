@@ -1,0 +1,44 @@
+procedure Main is
+
+   task Var_Server is
+      entry Read (V : out Integer);
+      entry Write (V : in Integer);
+   end Var_Server;
+   task body Var_Server is
+      Lock_Read : Boolean := False;
+      Load_Write : Boolean := True;
+
+      Var : Integer;
+
+   task Var_Writer;
+   task body Var_Writer is
+      I : Integer := 0;
+   begin
+      for J in 1..10 loop
+         Var_Server.Write(I);
+         I := I + 1;
+         delay 1.0;
+      end loop;
+   end Var_Writer;
+
+   task type Var_Reader (Id : Positive);
+   task body Var_Reader is
+      I : Integer;
+   begin
+      for J in 1..5 loop
+         Var_Server.Read(I);
+         Put_Line(
+                  "Reader" &
+                    Positive'Image(Id) &
+                    " reads variable with value" &
+                    Integer'Image (I));
+         delay 0.2;
+      end loop;
+   end Var_Reader;
+
+   R1 : Var_Reader(1);
+   R2 : Var_Reader(2);
+begin
+   --  Insert code here.
+   null;
+end Main;

@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/ALUMNO/frafolco/STR/STR_Pendulum/STR_Pendulum.gpr</vfs_project>
+      <vfs_file>/home/ALUMNO/frafolco/STR/STR_Pendulum/src/pendulum_2.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 93" >
+      <vfs_project>/home/ALUMNO/frafolco/STR/STR_Pendulum/STR_Pendulum.gpr</vfs_project>
+      <vfs_file>/home/ALUMNO/frafolco/STR/STR_Pendulum/src/pendulum_2.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/ALUMNO/frafolco/STR/STR_Pendulum/STR_Pendulum.gpr</vfs_project>
+      <vfs_file>/home/ALUMNO/frafolco/STR/STR_Pendulum/src/pendulum_3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/ALUMNO/frafolco/STR/STR_Pendulum/STR_Pendulum.gpr</vfs_project>
+      <vfs_file>/home/ALUMNO/frafolco/STR/STR_Pendulum/src/pendulum_3.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 19" line=" 1" >
+      <vfs_project>/home/ALUMNO/frafolco/STR/STR_Pendulum/STR_Pendulum.gpr</vfs_project>
+      <vfs_file>/home/ALUMNO/frafolco/STR/STR_Pendulum/src/pendulum_3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 3" >
+      <vfs_project>/home/ALUMNO/frafolco/STR/STR_Pendulum/STR_Pendulum.gpr</vfs_project>
+      <vfs_file>/home/ALUMNO/frafolco/STR/STR_Pendulum/src/pendulum_io.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 6" line=" 1" >
+      <vfs_project>/home/ALUMNO/frafolco/STR/STR_Pendulum/STR_Pendulum.gpr</vfs_project>
+      <vfs_file>/home/ALUMNO/frafolco/STR/STR_Pendulum/src/pendulum_3.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 30" >
+      <vfs_project>/home/ALUMNO/frafolco/STR/STR_Pendulum/STR_Pendulum.gpr</vfs_project>
+      <vfs_file>/home/ALUMNO/frafolco/STR/STR_Pendulum/src/pendulum_io.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/ALUMNO/frafolco/STR/STR_Pendulum/STR_Pendulum.gpr</vfs_project>
+      <vfs_file>/home/ALUMNO/frafolco/STR/STR_Pendulum/src/pendulum_io.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/ALUMNO/frafolco/STR/STR_Pendulum/STR_Pendulum.gpr</vfs_project>
+      <vfs_file>/home/ALUMNO/frafolco/STR/STR_Pendulum/src/pendulum_2.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/ALUMNO/frafolco/STR/STR_Pendulum/STR_Pendulum.gpr</vfs_project>
+      <vfs_file>/home/ALUMNO/frafolco/STR/STR_Pendulum/src/pendulum_io.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 103" line=" 29" >
+      <vfs_project>/home/ALUMNO/frafolco/STR/STR_Pendulum/STR_Pendulum.gpr</vfs_project>
+      <vfs_file>/home/ALUMNO/frafolco/STR/STR_Pendulum/src/pendulum_io.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/ALUMNO/frafolco/STR/STR_Pendulum/STR_Pendulum.gpr</vfs_project>
+      <vfs_file>/home/ALUMNO/frafolco/STR/STR_Pendulum/src/pendulum_io-adb.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 103" line=" 29" >
+      <vfs_project>/home/ALUMNO/frafolco/STR/STR_Pendulum/STR_Pendulum.gpr</vfs_project>
+      <vfs_file>/home/ALUMNO/frafolco/STR/STR_Pendulum/src/pendulum_io.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 17" line=" 25" >
+      <vfs_project>/home/ALUMNO/frafolco/STR/STR_Pendulum/STR_Pendulum.gpr</vfs_project>
+      <vfs_file>/home/ALUMNO/frafolco/STR/STR_Pendulum/src/pendulum_io.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 33" line=" 6" >
+      <vfs_project>/home/ALUMNO/frafolco/STR/STR_Pendulum/STR_Pendulum.gpr</vfs_project>
+      <vfs_file>/home/ALUMNO/frafolco/STR/STR_Pendulum/src/pendulum_io.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 37" line=" 29" >
+      <vfs_project>/home/ALUMNO/frafolco/STR/STR_Pendulum/STR_Pendulum.gpr</vfs_project>
+      <vfs_file>/home/ALUMNO/frafolco/STR/STR_Pendulum/src/pendulum_io.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 27" >
+      <vfs_project>/home/ALUMNO/frafolco/STR/STR_Pendulum/STR_Pendulum.gpr</vfs_project>
+      <vfs_file>/home/ALUMNO/frafolco/STR/STR_Pendulum/src/pendulum_io.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 79" line=" 29" >
+      <vfs_project>/home/ALUMNO/frafolco/STR/STR_Pendulum/STR_Pendulum.gpr</vfs_project>
+      <vfs_file>/home/ALUMNO/frafolco/STR/STR_Pendulum/src/pendulum_io.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/ALUMNO/frafolco/STR/STR_Pendulum/STR_Pendulum.gpr</vfs_project>
+      <vfs_file>/home/ALUMNO/frafolco/STR/STR_Pendulum/src/pendulum_io.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/ALUMNO/frafolco/STR/STR_Pendulum/STR_Pendulum.gpr</vfs_project>
+      <vfs_file>/home/ALUMNO/frafolco/STR/STR_Pendulum/src/pendulum_io.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/ALUMNO/frafolco/STR/STR_Pendulum/STR_Pendulum.gpr</vfs_project>
+      <vfs_file>/home/ALUMNO/frafolco/STR/STR_Pendulum/src/pendulum_io.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/ALUMNO/frafolco/STR/STR_Pendulum/STR_Pendulum.gpr</vfs_project>
+      <vfs_file>/home/ALUMNO/frafolco/STR/STR_Pendulum/src/pendulum_io.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/ALUMNO/frafolco/STR/STR_Pendulum/STR_Pendulum.gpr</vfs_project>
+      <vfs_file>/home/ALUMNO/frafolco/STR/STR_Pendulum/src/pendulum_io.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/ALUMNO/frafolco/STR/STR_Pendulum/STR_Pendulum.gpr</vfs_project>
+      <vfs_file>/home/ALUMNO/frafolco/STR/STR_Pendulum/src/pendulum_io.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 16" line=" 49" >
+      <vfs_project>/home/ALUMNO/frafolco/STR/STR_Pendulum/STR_Pendulum.gpr</vfs_project>
+      <vfs_file>/home/ALUMNO/frafolco/STR/STR_Pendulum/src/pendulum_io.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 26" >
+      <vfs_project>/home/ALUMNO/frafolco/STR/STR_Pendulum/STR_Pendulum.gpr</vfs_project>
+      <vfs_file>/home/ALUMNO/frafolco/STR/STR_Pendulum/src/pendulum_io.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 57" >
+      <vfs_project>/home/ALUMNO/frafolco/STR/STR_Pendulum/STR_Pendulum.gpr</vfs_project>
+      <vfs_file>/home/ALUMNO/frafolco/STR/STR_Pendulum/src/pendulum_io.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 43" line=" 56" >
+      <vfs_project>/home/ALUMNO/frafolco/STR/STR_Pendulum/STR_Pendulum.gpr</vfs_project>
+      <vfs_file>/home/ALUMNO/frafolco/STR/STR_Pendulum/src/pendulum_io.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 66" >
+      <vfs_project>/home/ALUMNO/frafolco/STR/STR_Pendulum/STR_Pendulum.gpr</vfs_project>
+      <vfs_file>/home/ALUMNO/frafolco/STR/STR_Pendulum/src/pendulum_io.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 56" >
+      <vfs_project>/home/ALUMNO/frafolco/STR/STR_Pendulum/STR_Pendulum.gpr</vfs_project>
+      <vfs_file>/home/ALUMNO/frafolco/STR/STR_Pendulum/src/pendulum_io.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 58" >
+      <vfs_project>/home/ALUMNO/frafolco/STR/STR_Pendulum/STR_Pendulum.gpr</vfs_project>
+      <vfs_file>/home/ALUMNO/frafolco/STR/STR_Pendulum/src/pendulum_io.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 4" line=" 67" >
+      <vfs_project>/home/ALUMNO/frafolco/STR/STR_Pendulum/STR_Pendulum.gpr</vfs_project>
+      <vfs_file>/home/ALUMNO/frafolco/STR/STR_Pendulum/src/pendulum_io.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

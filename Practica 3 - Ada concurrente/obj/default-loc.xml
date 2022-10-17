@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/francesc/Documents/STR/Practica 3 - Ada concurrente/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 3" >
+      <vfs_project />
+      <vfs_file>/home/francesc/Documents/STR/Practica 3 - Ada concurrente/src/calendar_test.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/francesc/Documents/STR/Practica 3 - Ada concurrente/src/rt_test.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/francesc/Documents/STR/Practica 3 - Ada concurrente/src/periodic_task.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 9" line=" 37" >
+      <vfs_project />
+      <vfs_file>/home/francesc/Documents/STR/Practica 3 - Ada concurrente/src/sync_task.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 36" >
+      <vfs_project />
+      <vfs_file>/home/francesc/Documents/STR/Practica 3 - Ada concurrente/src/periodic_task.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 37" >
+      <vfs_project />
+      <vfs_file>/home/francesc/Documents/STR/Practica 3 - Ada concurrente/src/periodic_task.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 9" >
+      <vfs_project />
+      <vfs_file>/home/francesc/Documents/STR/Practica 3 - Ada concurrente/src/periodic_task.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 10" >
+      <vfs_project />
+      <vfs_file>/home/francesc/Documents/STR/Practica 3 - Ada concurrente/src/periodic_task.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 4" line=" 9" >
+      <vfs_project />
+      <vfs_file>/home/francesc/Documents/STR/Practica 3 - Ada concurrente/src/periodic_task.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 14" line=" 10" >
+      <vfs_project />
+      <vfs_file>/home/francesc/Documents/STR/Practica 3 - Ada concurrente/src/periodic_task.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/francesc/Documents/STR/Practica 3 - Ada concurrente/src/periodic_task_2.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/francesc/Documents/STR/Practica 3 - Ada concurrente/src/sync_task.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/francesc/Documents/STR/Practica 3 - Ada concurrente/src/periodic_task_2.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/francesc/Documents/STR/Practica 3 - Ada concurrente/src/periodic_task.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/francesc/Documents/STR/Practica 3 - Ada concurrente/src/periodic_task_2.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/francesc/Documents/STR/Practica 3 - Ada concurrente/src/periodic_task.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>/home/francesc/Documents/STR/Practica 3 - Ada concurrente/src/periodic_task_2.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 13" line=" 62" >
+      <vfs_project />
+      <vfs_file>/home/francesc/Documents/STR/Practica 3 - Ada concurrente/src/periodic_task_2.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

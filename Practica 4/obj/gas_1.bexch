@@ -1,0 +1,25 @@
+[GENERATED OBJECT FILE]
+b__gas_1.o
+[PROJECT FILES]
+/home/francesc/Documents/STR/Practica 4/practica4.gpr
+20191010094255
+[BOUND OBJECT FILES]
+/home/francesc/Documents/STR/Practica 4/obj/consola_compartida.o
+/home/francesc/Documents/STR/Practica 4/obj/gas_1.o
+[GENERATED SOURCE FILES]
+b__gas_1.ads
+b__gas_1.adb
+b__gas_1.ali
+[RESULTING OPTIONS]
+-L/home/francesc/Documents/STR/Practica 4/obj/
+-L/home/francesc/Documents/STR/Practica 4/obj/
+-L/usr/lib/gcc/x86_64-linux-gnu/7/adalib/
+-shared
+-shared-libgcc
+-lgnarl-7
+-lgnat-7
+-lpthread
+-lrt
+[RUN PATH OPTION]
+/usr/lib/gcc/x86_64-linux-gnu/7/adalib/
+/usr/lib

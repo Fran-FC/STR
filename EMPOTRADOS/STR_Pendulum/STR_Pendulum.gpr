@@ -1,0 +1,29 @@
+with "/home/ALUMNO/frafolco/STR/ADL-2018/boards/stm32f407_discovery/stm32f407_discovery_full.gpr";
+--  MUST replace "<ADL_path>" with actual ADL path (eg., $HOME/ADL-2018)
+
+project STR_Pendulum is
+
+   for Main use ("pendulum_1.adb", "pendulum_2.adb", "pendulum_3.adb");
+
+   for Runtime ("ada") use Stm32F407_Discovery_Full'Runtime ("Ada");
+   for Target use "arm-eabi";
+   for Languages use ("Ada");
+   for Source_Dirs use ("src");
+   for Object_Dir use "obj";
+   for Create_Missing_Dirs use "True";
+
+   package Ide is
+      for Gnat use "arm-eabi-gnat";
+      for Gnatlist use "arm-eabi-gnatls";
+      for Debugger_Command use "arm-eabi-gdb";
+      for Program_Host use "localhost:4242";
+      for Communication_Protocol use "remote";
+      for Connection_Tool use "st-util";
+   end Ide;
+
+   package Linker is
+      for Default_Switches ("ada") use ("-Wl,--print-memory-usage");
+   end Linker;
+
+end STR_Pendulum;
+

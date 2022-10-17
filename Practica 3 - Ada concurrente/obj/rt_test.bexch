@@ -1,0 +1,24 @@
+[GENERATED OBJECT FILE]
+b__rt_test.o
+[PROJECT FILES]
+/home/francesc/Documents/STR/Practica 3 - Ada concurrente/default.gpr
+20191003092855
+[BOUND OBJECT FILES]
+/home/francesc/Documents/STR/Practica 3 - Ada concurrente/obj/rt_test.o
+[GENERATED SOURCE FILES]
+b__rt_test.ads
+b__rt_test.adb
+b__rt_test.ali
+[RESULTING OPTIONS]
+-L/home/francesc/Documents/STR/Practica 3 - Ada concurrente/obj/
+-L/home/francesc/Documents/STR/Practica 3 - Ada concurrente/obj/
+-L/usr/lib/gcc/x86_64-linux-gnu/7/adalib/
+-shared
+-shared-libgcc
+-lgnarl-7
+-lgnat-7
+-lpthread
+-lrt
+[RUN PATH OPTION]
+/usr/lib/gcc/x86_64-linux-gnu/7/adalib/
+/usr/lib

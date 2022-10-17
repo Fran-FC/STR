@@ -1,0 +1,109 @@
+V "GNAT Lib v7"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_FIXED_POINT
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_IMPLICIT_CONDITIONALS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U rt_test%b		rt_test.adb		a8c939bc NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.real_time.delays%s  a-retide.adb		a-retide.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system.concat_2%s	s-conca2.adb		s-conca2.ali
+W system.img_int%s	s-imgint.adb		s-imgint.ali
+W system.img_lld%s	s-imglld.adb		s-imglld.ali
+W system.img_real%s	s-imgrea.adb		s-imgrea.ali
+
+D ada.ads		20170106103348 76789da1 ada%s
+D a-calend.ads		20160420090448 2d5f01d4 ada.calendar%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20160420090448 a87e2da7 ada.real_time%s
+D a-retide.ads		20090409150019 081cdaa4 ada.real_time.delays%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-c.ads		20110801143639 5421119b interfaces.c%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D rt_test.adb		20191003093742 1585e01b rt_test%b
+D system.ads		20170510173650 4635ec04 system%s
+D s-atacco.ads		20120515093410 4c36d12f system.address_to_access_conversions%s
+D s-conca2.ads		20140225151544 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-imgint.ads		20090409150019 02dbe0c2 system.img_int%s
+D s-imglld.ads		20090409150019 f3220969 system.img_lld%s
+D s-imgrea.ads		20090409150019 c7a851e2 system.img_real%s
+D s-linux.ads		20150107101203 2fda6ad1 system.linux%s
+D s-multip.ads		20101011073009 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20190508155303 7b5577db system.os_constants%s
+D s-osinte.ads		20170314092617 ad16bc4a system.os_interface%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stausa.ads		20110804134155 017a0a05 system.stack_usage%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20140613095942 2b3f8252 system.task_info%s
+D s-taspri.ads		20141120144719 e3ab4429 system.task_primitives%s
+D s-taprop.ads		20140521131406 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20170112134946 05d6152c system.tasking%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 14|1r6 1r25 2r6 2r25 3r6 3r25 6r18 7r18 17r12 19r16 20r16
+X 2 a-calend.ads
+36K13*Calendar 395e17 14|1w10 1r29 6r22 20r20
+44I9*Time<213I9> 14|6r31
+58V13*Clock{44I9} 14|20s29
+71U14*Split 14|21s7
+213I9 Time_Rep<long_long_integer>
+X 5 a-reatim.ads
+39K13*Real_Time 187e18 14|2w10 2r29 7r22 17r16 19r20
+51O9*Time<duration> 14|7r32
+54N4*Time_Unit 14|14r64
+56O9*Time_Span<duration> 14|8r18
+62o4*Tick{56O9} 14|15r60
+63V13*Clock{51O9} 14|17s26 19s30 30s45
+67V14*"+"{51O9} 14|17s32 32s20
+73V14*"-"{56O9} 14|30s51
+112V13*To_Duration{duration} 14|15s48 30s32
+124V13*Seconds{56O9} 14|8s31
+X 9 a-textio.ads
+49K13*Text_IO 471e16 14|3w10 3r29
+263U14*Put_Line 14|14s4 15s4 16s4 27s7
+X 14 rt_test.adb
+5U11*RT_Test 5b11 34l5 34t12
+6i4 T_Cal{2|44I9} 20m7 21r14
+7o4 Next{5|51O9} 17m4 31r19 32m7 32r15
+7o10 T_Ini{5|51O9} 19m7 30r53
+8o4 Period{5|56O9} 17r34 32r22
+9i4 Yr{integer} 21m21 27r53
+9i8 Mh{integer} 21m25 27r35
+9i12 Dy{integer} 21m29 27r17
+10o4 Ss{duration} 21m33 22r21 23r22 24r21 25m7 25r13 29r27
+11i4 Hr{integer} 22m7 25r25 28r19
+11i8 Mn{integer} 23m7 25r35 28r37
+11i12 Sd{integer} 24m7 28r55
+18i8 I{integer}
+X 31 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+

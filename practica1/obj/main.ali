@@ -1,0 +1,83 @@
+V "GNAT Lib v7"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U prac_1%b		main.adb		df7e4f4d NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W interfaces%s		interfac.ads		interfac.ali
+
+D ada.ads		20170106103348 76789da1 ada%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-inteio.ads		20070406091342 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-tiinio.ads		20140717063513 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D main.adb		20190919103245 1158333d prac_1%b
+D system.ads		20170510173650 4635ec04 system%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 12|7r6 7r19 8r6 8r19
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 12|7w23 8r23
+X 7 a-textio.ads
+49K13*Text_IO 471e16 12|7w10 8r10
+166U14*New_Line 12|81s54 111s9
+242U14*Put 12|80s13 81s13 99s9 106s13 109s13 119s9
+263U14*Put_Line 12|46s10 64s10 77s10 90s3 92s5 93s5 94s5 95s5 102s13
+X 8 a-tiinio.ads
+56U14*Get 12|96s5[3|18] 100s9[3|18]
+66U14*Put 12|80s30[3|18] 81s35[3|18] 107s13[3|18]
+X 12 main.adb
+10U11*Prac_1 10b11 122l5 122t11
+11i4 N{integer} 12r22 39r22
+12M9 Index 13r26 22r22 73r13
+13A9 Buffer(integer)<12M9> 18r18
+15R9 Circular_Buffer 24e17 26r15 29r36 36r28 54r31 72r26
+18a10 Queue{13A9} 40m12 58r16 81r41
+20m10 Add_Index{12M9} 31m9 40r20 41m12 41r27
+22m10 Rem_Index{12M9} 32m9 58r24 59m12 59r27 73r24
+23i10 Counter{integer} 33m9 39r12 42m12 42r25 57r12 60m12 60r25 76r12 79r26
+26r4 My_Buffer{15R9} 101m17 101r17 105m19 105r19 113m21 113r21 115r15
+27i4 Command{integer} 96m9 97r10
+27i13 Elem{integer} 100m13 101r27 105m29 105r29 107r17
+29U14 Initialise 29b14 29=26 34l8 34t18 113s10
+29r26 B{15R9} 31m7 32m7 33m7
+36V13 Add{boolean} 36b13 36=18 36>45 52l8 52t11 101s13
+36r18 B{15R9} 39r10 40m10 40r18 41m10 41r25 42m10 42r23
+36i45 I{integer} 40r34
+37b7 Res{boolean} 44m10 48m10 51r14
+54V13 Remove{boolean} 54b13 54=21 54<48 70l8 70t14 105s12
+54r21 B{15R9} 57r10 58r14 58r22 59m10 59r25 60m10 60r23
+54i48 I{integer} 58m10
+55b7 Res{boolean} 62m10 66m10 69r14
+72U14 List 72b14 72>20 86l8 86t12 115s10
+72r20 B{15R9} 73r22 76r10 79r24 81r39
+73m7 Var{12M9} 80r42 81r47
+79i14 I{integer}
+

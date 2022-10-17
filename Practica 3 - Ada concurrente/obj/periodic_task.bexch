@@ -1,0 +1,24 @@
+[GENERATED OBJECT FILE]
+b__periodic_task.o
+[PROJECT FILES]
+/home/francesc/Documents/STR/Practica 3 - Ada concurrente/default.gpr
+20191003101733
+[BOUND OBJECT FILES]
+/home/francesc/Documents/STR/Practica 3 - Ada concurrente/obj/periodic_task.o
+[GENERATED SOURCE FILES]
+b__periodic_task.ads
+b__periodic_task.adb
+b__periodic_task.ali
+[RESULTING OPTIONS]
+-L/home/francesc/Documents/STR/Practica 3 - Ada concurrente/obj/
+-L/home/francesc/Documents/STR/Practica 3 - Ada concurrente/obj/
+-L/usr/lib/gcc/x86_64-linux-gnu/7/adalib/
+-shared
+-shared-libgcc
+-lgnarl-7
+-lgnat-7
+-lpthread
+-lrt
+[RUN PATH OPTION]
+/usr/lib/gcc/x86_64-linux-gnu/7/adalib/
+/usr/lib

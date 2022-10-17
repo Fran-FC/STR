@@ -1,0 +1,61 @@
+V "GNAT Lib v2018"
+M P W=b
+A -gnatA
+A --RTS=/opt/GNAT/2018-arm-elf/arm-eabi/lib/gnat/ravenscar-full-stm32f4/
+A -mlittle-endian
+A -mfloat-abi=hard
+A -mcpu=cortex-m4
+A -mfpu=fpv4-sp-d16
+A -mthumb
+A -gnatc
+P DB LC TF  NO FX
+
+RN
+RV NO_DELAY
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U pendulum_3%b		pendulum_3.adb		1404528f OO SU
+W ada%s			ada.ads			ada.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.real_time.delays%s  a-retide.adb		a-retide.ali
+W pendulum_io%s		pendulum_io.ads		pendulum_io.ali
+
+D ada.ads		20180525200322 76789da1 ada%s
+D a-reatim.ads		20180525200322 4c16970e ada.real_time%s
+D a-retide.ads		20180525200322 081cdaa4 ada.real_time.delays%s
+D interfac.ads		20180525200321 5ab55268 interfaces%s
+D i-stm32.ads		20180525200320 4d2e1e9b interfaces.stm32%s
+D i-stm32-pwr.ads	20180525200320 10ed2a13 interfaces.stm32.pwr%s
+D pendulum_3.adb	20191121111801 f8cdd248 pendulum_3%b
+D pendulum_io.ads	20191121111732 a0df17c9 pendulum_io%s
+D system.ads		20180525200320 db831581 system%s
+D s-bb.ads		20180525200321 09e072ae system.bb%s
+D s-bbbopa.ads		20180525200320 95d97b26 system.bb.board_parameters%s
+D s-bbbosu.ads		20180525200322 0f820a2a system.bb.board_support%s
+D s-bbcppr.ads		20180525200320 bcfa73ad system.bb.cpu_primitives%s
+D s-bbinte.ads		20180525200322 c88d39da system.bb.interrupts%s
+D s-bbmcpa.ads		20180525200320 c4c55388 system.bb.mcu_parameters%s
+D s-bbpara.ads		20180525200320 431abc17 system.bb.parameters%s
+D s-bbthre.ads		20180525200322 c94b446f system.bb.threads%s
+D s-bbthqu.ads		20180525200322 db3cad46 system.bb.threads.queues%s
+D s-bbtime.ads		20180525200322 ad086247 system.bb.time%s
+D s-multip.ads		20180525200322 f33e0e35 system.multiprocessors%s
+D s-osinte.ads		20180525200322 229b14dd system.os_interface%s
+D s-stm32.ads		20180525200320 e898dba2 system.stm32%s
+D s-stoele.ads		20180525200321 2dc34a04 system.storage_elements%s
+D s-unstyp.ads		20180525200321 34867c83 system.unsigned_types%s
+X 1 ada.ads
+16K9*Ada 20e8 7|1r19 5r16
+X 2 a-reatim.ads
+41K13*Real_Time 182e18 7|1w23 5r20
+51M9*Time<19|46M9>
+53m4*Time_Last{51M9} 7|5r30
+X 7 pendulum_3.adb
+3U11*Pendulum_3 3b11 6l5 6t15
+X 8 pendulum_io.ads
+1K9*pendulum_io 7|1w6 8|5e16
+X 19 s-bbtime.ads
+46M9*Time
+

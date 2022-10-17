@@ -1,0 +1,101 @@
+V "GNAT Lib v7"
+M P W=b
+A -gnatA
+A -gnatc
+A -mtune=generic
+A -march=x86-64
+P NO FX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_FIXED_POINT
+RV NO_IO
+RV NO_TASK_HIERARCHY
+RV NO_TASKING
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+RV MAX_TASKS=1+
+
+U periodic_task%b	periodic_task.adb	46bdda21 OO SU
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20170106103348 76789da1 ada%s
+D a-calend.ads		20160420090448 2d5f01d4 ada.calendar%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20160420090448 a87e2da7 ada.real_time%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-c.ads		20110801143639 5421119b interfaces.c%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D periodic_task.adb	20191004081727 fbf10386 periodic_task%b
+D system.ads		20170510173650 4635ec04 system%s
+D s-atacco.ads		20120515093410 4c36d12f system.address_to_access_conversions%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-linux.ads		20150107101203 2fda6ad1 system.linux%s
+D s-multip.ads		20101011073009 38ac9f73 system.multiprocessors%s
+D s-oscons.ads		20190508155303 7b5577db system.os_constants%s
+D s-osinte.ads		20170314092617 ad16bc4a system.os_interface%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stausa.ads		20110804134155 017a0a05 system.stack_usage%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20140613095942 2b3f8252 system.task_info%s
+D s-taspri.ads		20141120144719 e3ab4429 system.task_primitives%s
+D s-taprop.ads		20140521131406 1dd2e1b6 system.task_primitives.operations%s
+D s-taskin.ads		20170112134946 05d6152c system.tasking%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 12|1r6 1r25 2r6 2r25 3r6 3r25 11r21 15r14 19r19 38r14
+X 2 a-calend.ads
+36K13*Calendar 395e17 12|1w10 1r29 11r25 19r23
+44I9*Time<213I9> 12|11r34
+58V13*Clock{44I9} 12|19s32
+71U14*Split 12|20s10
+213I9 Time_Rep<long_long_integer>
+X 5 a-reatim.ads
+39K13*Real_Time 187e18 12|2w10 2r29 15r18 38r18
+51O9*Time<duration> 12|15r28 38r28
+56O9*Time_Span<duration> 12|16r21 39r21
+63V13*Clock{51O9} 12|15s36 38s36
+67V14*"+"{51O9} 12|30s23 44s23
+97V14*"/"{56O9} 12|44s32
+124V13*Seconds{56O9} 12|16s34 39s34
+X 7 a-textio.ads
+49K13*Text_IO 471e16 12|3w10 3r29
+263U14*Put_Line 12|26s10 53s4
+X 12 periodic_task.adb
+5U11*Periodic_task 5b11 54l5 54t18
+7i4 I{integer} 28r61 42m10 42r16
+9T14 Timer 10b14 34l8 34t13 49r8
+11i7 T_Cal{2|44I9} 19m10 20r17
+12i7 Yr{integer} 20m24 26r56
+12i11 Mh{integer} 20m28 26r38
+12i15 Dy{integer} 20m32 26r20
+13o7 Ss{duration} 20m36 21r24 22r25 23r24 24m10 24r16 28r30
+14i7 Hr{integer} 21m10 24r28 27r22
+14i11 Mn{integer} 22m10 24r38 27r40
+14i15 Sd{integer} 23m10 27r58
+15o7 Next{5|51O9} 30m10 30r18 31r22
+16o7 Period{5|56O9} 30r25
+36T14 Incrementer 37b14 47l8 47t19 50r10
+38o7 Next{5|51O9} 44m10 44r18 45r22
+39o7 Period{5|56O9} 44r25
+49t4 T{9T14}
+50t4 Inc{36T14}
+X 24 s-stausa.ads
+203U14*Initialize 204i<c,__gnat_stack_usage_initialize>22
+268U14*Output_Results 272i<c,__gnat_stack_usage_output_results>22
+

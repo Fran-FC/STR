@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__calendar_test.o
+[PROJECT FILES]
+/home/francesc/Documents/STR/Practica 3 - Ada concurrente/default.gpr
+20191003091726
+[BOUND OBJECT FILES]
+/home/francesc/Documents/STR/Practica 3 - Ada concurrente/obj/calendar_test.o
+[GENERATED SOURCE FILES]
+b__calendar_test.ads
+b__calendar_test.adb
+b__calendar_test.ali
+[RESULTING OPTIONS]
+-L/home/francesc/Documents/STR/Practica 3 - Ada concurrente/obj/
+-L/home/francesc/Documents/STR/Practica 3 - Ada concurrente/obj/
+-L/usr/lib/gcc/x86_64-linux-gnu/7/adalib/
+-shared
+-shared-libgcc
+-lgnat-7
+[RUN PATH OPTION]
+/usr/lib/gcc/x86_64-linux-gnu/7/adalib/
+/usr/lib

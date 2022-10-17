@@ -1,0 +1,73 @@
+V "GNAT Lib v7"
+M P W=b
+A -gnatA
+A -gnatc
+A -mtune=generic
+A -march=x86-64
+P NO FX
+
+RN
+RV NO_IO
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U prac_1%b		prac_1.adb		dccc227b OO SU
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+
+D ada.ads		20170106103348 76789da1 ada%s
+D a-inteio.ads		20070406091342 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-tiinio.ads		20140717063513 aa04e5d6 ada.text_io.integer_io%s
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D prac_1.adb		20190926083918 12ea5e0b prac_1%b
+D system.ads		20170510173650 4635ec04 system%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 9|7r6 7r19 8r6 8r19
+X 2 a-inteio.ads
+18K13*Integer_Text_IO[6|46] 9|7w23 8r23
+X 5 a-textio.ads
+49K13*Text_IO 471e16 9|7w10 8r10
+166U14*New_Line 9|82s53 116s9
+242U14*Put 9|81s13 82s13 104s9 111s13 114s13 124s9
+263U14*Put_Line 9|47s10 65s10 78s10 93s3 95s5 96s5 97s5 98s5 99s5 107s13
+X 6 a-tiinio.ads
+56U14*Get 9|101s5[2|18] 105s9[2|18]
+66U14*Put 9|81s30[2|18] 82s34[2|18] 112s13[2|18]
+X 9 prac_1.adb
+11U11*Prac_1 11b11 127l5 127t11
+12i4 N{integer} 13r22 40r22
+13M9 Index 14r26 23r22 74r13
+14A9 Buffer(integer)<13M9> 19r18
+16R9 Circular_Buffer 25e17 27r15 30r36 37r28 55r31 73r26
+19a10 Queue{14A9} 41m12 59r16 82r40
+21m10 Add_Index{13M9} 32m9 41r20 42m12 42r27
+23m10 Rem_Index{13M9} 33m9 59r24 60m12 60r27 74r24
+24i10 Counter{integer} 34m9 40r12 43m12 43r25 58r12 61m12 61r25 77r12 80r26
+27r4 My_Buffer{16R9} 106m17 106r17 110m19 110r19 118m21 118r21 120r15
+28i4 Command{integer} 101m9 102r10
+28i13 Elem{integer} 105m13 106r27 110m29 110r29 112r17
+30U14 Initialise 30b14 30=26 35l8 35t18 118s10
+30r26 B{16R9} 32m7 33m7 34m7
+37V13 Add{boolean} 37b13 37=18 37>45 53l8 53t11 106s13
+37r18 B{16R9} 40r10 41m10 41r18 42m10 42r25 43m10 43r23
+37i45 I{integer} 41r34
+38b7 Res{boolean} 45m10 49m10 52r14
+55V13 Remove{boolean} 55b13 55=21 55<48 71l8 71t14 110s12
+55r21 B{16R9} 58r10 59r14 59r22 60m10 60r25 61m10 61r23
+55i48 I{integer} 59m10
+56b7 Res{boolean} 63m10 67m10 70r14
+73U14 List 73b14 73>20 89l8 89t12 120s10
+73r20 B{16R9} 74r22 77r10 80r24 82r38
+74m7 Var{13M9} 81r42 82r46 84m13 84r20
+80i14 I{integer}
+

@@ -1,0 +1,118 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file>/home/francesc/Documents/STR/practica2/practica2.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/francesc/Documents/STR/practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/francesc/Documents/STR/practica2/src/circularbuffer.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/francesc/Documents/STR/practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/francesc/Documents/STR/practica2/src/buffers.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/francesc/Documents/STR/practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/francesc/Documents/STR/practica2/src/buffers.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/francesc/Documents/STR/practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/francesc/Documents/STR/practica2/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 57" >
+      <vfs_project>/home/francesc/Documents/STR/practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/francesc/Documents/STR/practica2/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 57" >
+      <vfs_project>/home/francesc/Documents/STR/practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/francesc/Documents/STR/practica2/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 5" >
+      <vfs_project>/home/francesc/Documents/STR/practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/francesc/Documents/STR/practica2/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 57" >
+      <vfs_project>/home/francesc/Documents/STR/practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/francesc/Documents/STR/practica2/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/francesc/Documents/STR/practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/francesc/Documents/STR/practica2/src/buffers.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/francesc/Documents/STR/practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/francesc/Documents/STR/practica2/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 57" >
+      <vfs_project>/home/francesc/Documents/STR/practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/francesc/Documents/STR/practica2/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 57" >
+      <vfs_project>/home/francesc/Documents/STR/practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/francesc/Documents/STR/practica2/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 30" >
+      <vfs_project>/home/francesc/Documents/STR/practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/francesc/Documents/STR/practica2/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 57" >
+      <vfs_project>/home/francesc/Documents/STR/practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/francesc/Documents/STR/practica2/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/francesc/Documents/STR/practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/francesc/Documents/STR/practica2/src/buffers.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 32" line=" 19" >
+      <vfs_project>/home/francesc/Documents/STR/practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/francesc/Documents/STR/practica2/src/buffers.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/francesc/Documents/STR/practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/francesc/Documents/STR/practica2/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 57" >
+      <vfs_project>/home/francesc/Documents/STR/practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/francesc/Documents/STR/practica2/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 57" >
+      <vfs_project>/home/francesc/Documents/STR/practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/francesc/Documents/STR/practica2/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 20" line=" 4" >
+      <vfs_project>/home/francesc/Documents/STR/practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/francesc/Documents/STR/practica2/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 18" line=" 40" >
+      <vfs_project>/home/francesc/Documents/STR/practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/francesc/Documents/STR/practica2/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 57" >
+      <vfs_project>/home/francesc/Documents/STR/practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/francesc/Documents/STR/practica2/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 57" >
+      <vfs_project>/home/francesc/Documents/STR/practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/francesc/Documents/STR/practica2/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 13" line=" 57" >
+      <vfs_project>/home/francesc/Documents/STR/practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/francesc/Documents/STR/practica2/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 56" >
+      <vfs_project>/home/francesc/Documents/STR/practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/francesc/Documents/STR/practica2/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 7" line=" 56" >
+      <vfs_project>/home/francesc/Documents/STR/practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/francesc/Documents/STR/practica2/src/main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>/home/francesc/Documents/STR/practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/francesc/Documents/STR/practica2/src/buffers.adb</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>/home/francesc/Documents/STR/practica2/practica2.gpr</vfs_project>
+      <vfs_file>/home/francesc/Documents/STR/practica2/src/buffers.ads</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

@@ -1,0 +1,23 @@
+[GENERATED OBJECT FILE]
+b__pendulum_3.o
+[PROJECT FILES]
+/home/ALUMNO/frafolco/STR/STR_Pendulum/STR_Pendulum.gpr
+20191121101610
+/home/ALUMNO/frafolco/STR/ADL-2018/boards/stm32f407_discovery/stm32f407_discovery_full.gpr
+20180918162022
+[BOUND OBJECT FILES]
+/home/ALUMNO/frafolco/STR/STR_Pendulum/obj/pendulum_io.o
+/home/ALUMNO/frafolco/STR/STR_Pendulum/obj/pendulum_3.o
+[GENERATED SOURCE FILES]
+b__pendulum_3.ads
+b__pendulum_3.adb
+b__pendulum_3.ali
+[RESULTING OPTIONS]
+-L/home/ALUMNO/frafolco/STR/STR_Pendulum/obj/
+-L/home/ALUMNO/frafolco/STR/STR_Pendulum/obj/
+-L/home/ALUMNO/frafolco/STR/ADL-2018/boards/stm32f407_discovery/obj/full_lib_Debug/
+-L/opt/GNAT/2018-arm-elf/arm-eabi/lib/gnat/ravenscar-full-stm32f4/adalib/
+-static
+-static-libgcc
+/opt/GNAT/2018-arm-elf/arm-eabi/lib/gnat/ravenscar-full-stm32f4/adalib/libgnarl.a
+/opt/GNAT/2018-arm-elf/arm-eabi/lib/gnat/ravenscar-full-stm32f4/adalib/libgnat.a

@@ -1,0 +1,98 @@
+V "GNAT Lib v7"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV SPARK_05
+
+U buffers%b		buffers.adb		20258871 NE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W interfaces%s		interfac.ads		interfac.ali
+
+U buffers%s		buffers.ads		7857832b EE OO PK
+W ada%s			ada.ads			ada.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W system%s		system.ads		system.ali
+W system.exception_table%s  s-exctab.adb	s-exctab.ali
+W system.standard_library%s  s-stalib.adb	s-stalib.ali
+
+D ada.ads		20170106103348 76789da1 ada%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-inteio.ads		20070406091342 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-tiinio.ads		20140717063513 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D buffers.ads		20190926124046 b671ff5b buffers%s
+D buffers.adb		20190926102601 58720b5a buffers%b
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D system.ads		20170510173650 4635ec04 system%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 10|2r6 2r19 3r6 3r19 11|2r6 2r19 3r6 3r19
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 10|2w23 3r23 11|2w23 3r23
+X 7 a-textio.ads
+49K13*Text_IO 471e16 10|2w10 3r10 11|2w10 3r10
+166U14*New_Line 11|58s53
+242U14*Put 11|57s13 58s13
+X 8 a-tiinio.ads
+66U14*Put 11|57s30[3|18] 58s34[3|18]
+X 10 buffers.ads
+5K9*Buffers 22E4 37l5 37e12 11|5b14 65l5 65t12
+7R9*Circular_Buffer 9r36 11r29 13r32 15r26 26c9 35e17 11|7r24 13r25 19r36
+. 26r29 38r32 49r26
+9U14*Initialise 9=26 11|19b14 24l8 24t18
+9r26 B{7R9} 11|19b26 21m7 22m7 23m7
+11U14*Add 11=19 11>46 11|26b14 36l8 36t11
+11r19 B{7R9} 11|26b19 28r15 31m10 31r18 32m10 32r25 33m10 33r23
+11i46 I{integer} 11|26b46 31r34
+13U14*Remove 13=22 13<49 11|38b14 47l8 47t14
+13r22 B{7R9} 11|38b22 40r20 41r14 41r22 42m10 42r25 43m10 43r23
+13i49 I{integer} 11|38b49 41m10
+15U14*List 15>20 11|49b14 64l8 64t12
+15r20 B{7R9} 11|49b20 50r22 53r16 56r24 58r38
+19X4*Buffer_Full 11|29r16
+19X17*Buffer_Empty 11|45r16 54r16
+22i4 N{integer} 23r22 11|8r31
+23M9 Index 24r26 33r22 11|50r13
+24A9 Buffer(integer)<23M9> 29r18
+29a10*Queue{24A9} 11|31m12 41r16 58r40
+31m10*Add_Index{23M9} 11|21m9 31r20 32m12 32r27
+33m10*Rem_Index{23M9} 11|22m9 41r24 42m12 42r27 50r24
+34i10*Counter{integer} 11|8r21 14r24 23m9 33m12 33r25 43m12 43r25 56r26
+X 11 buffers.adb
+7V13 Full{boolean} 7b13 7>18 11l8 11t12 28s10
+7r18 B{10|7R9} 8r19
+8b4 Res{boolean} 10r18
+13V13 Empty{boolean} 13b13 13>19 17l8 17t13 40s14 53s10
+13r19 B{10|7R9} 14r22
+14b7 Res{boolean} 16r18
+50m7 Var{10|23M9} 57r42 58r46 60m13 60r20
+56i14 I{integer}
+

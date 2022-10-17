@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/francesc/Documents/STR/practica2/practica2.gpr
+20190926094711
+[BOUND OBJECT FILES]
+/home/francesc/Documents/STR/practica2/obj/buffers.o
+/home/francesc/Documents/STR/practica2/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/francesc/Documents/STR/practica2/obj/
+-L/home/francesc/Documents/STR/practica2/obj/
+-L/usr/lib/gcc/x86_64-linux-gnu/7/adalib/
+-shared
+-shared-libgcc
+-lgnat-7
+[RUN PATH OPTION]
+/usr/lib/gcc/x86_64-linux-gnu/7/adalib/
+/usr/lib

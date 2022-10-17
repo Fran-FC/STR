@@ -1,0 +1,89 @@
+V "GNAT Lib v7"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P SS ZX
+
+RN
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTION_PROPAGATION
+RV NO_EXCEPTIONS
+RV NO_IO
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV SPARK_05
+
+U main%b		main.adb		aa7eedd5 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.exceptions%s	a-except.adb		a-except.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W buffers%s		buffers.adb		buffers.ali
+W system.concat_4%s	s-conca4.adb		s-conca4.ali
+W system.secondary_stack%s  s-secsta.adb	s-secsta.ali
+
+D ada.ads		20170106103348 76789da1 ada%s
+D a-except.ads		20151016123252 291912d5 ada.exceptions%s
+D a-inteio.ads		20070406091342 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20140225151544 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20141120112812 119b8fb3 ada.streams%s
+D a-tags.ads		20151016130316 01f5e3ef ada.tags%s
+D a-textio.ads		20140717063745 386df5d4 ada.text_io%s
+D a-tiinio.ads		20140717063513 aa04e5d6 ada.text_io.integer_io%s
+D a-unccon.ads		20170106103348 31484697 ada.unchecked_conversion%s
+D buffers.ads		20190926124046 b671ff5b buffers%s
+D interfac.ads		20160502101001 5ab55268 interfaces%s
+D i-cstrea.ads		20140801100435 e53d8b8e interfaces.c_streams%s
+D main.adb		20190926182652 fb307c2b main%b
+D system.ads		20170510173650 4635ec04 system%s
+D s-conca4.ads		20140225151544 7e642b20 system.concat_4%s
+D s-crtl.ads		20141120112812 0ebbdb71 system.crtl%s
+D s-exctab.ads		20140225151139 54135002 system.exception_table%s
+D s-ficobl.ads		20140718105747 078245e4 system.file_control_block%s
+D s-parame.ads		20140801093848 7e2a0d7f system.parameters%s
+D s-secsta.ads		20170112134946 9751b57e system.secondary_stack%s
+D s-soflin.ads		20151020124036 14e1eb6c system.soft_links%s
+D s-stache.ads		20140225151139 a37c21ec system.stack_checking%s
+D s-stalib.ads		20151112104907 09bd3940 system.standard_library%s
+D s-stoele.ads		20140225151139 2dc34a04 system.storage_elements%s
+D s-traent.ads		20140730135025 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20160502101423 34867c83 system.unsigned_types%s
+D s-wchcon.ads		20140718092328 1b7d22d2 system.wch_con%s
+X 1 ada.ads
+16K9*Ada 20e8 13|2r6 2r19 3r6 3r19 4r6 4r26
+X 2 a-except.ads
+54K13*Exceptions 349e19 13|4w10 4r30
+72V13*Exception_Name{string} 13|49s37 53s37
+94V13*Exception_Message{string} 13|49s67 53s67
+X 3 a-inteio.ads
+18K13*Integer_Text_IO[8|46] 13|2w23 3r23
+X 7 a-textio.ads
+49K13*Text_IO 471e16 13|2w10 3r10
+166U14*New_Line 13|33s13 48s13 52s13
+242U14*Put 13|25s13 30s13 42s13 47s13 51s13
+263U14*Put_Line 13|12s4 15s10 16s10 17s10 18s10 19s10 49s13 53s13
+X 8 a-tiinio.ads
+56U14*Get 13|21s10[3|18] 26s13[3|18]
+66U14*Put 13|31s13[3|18]
+X 10 buffers.ads
+5K9*Buffers 37e12 13|1w6 1r19
+7R9*Circular_Buffer 35e17 13|8r15
+9U14*Initialise 13|35s13
+11U14*Add 13|27s13
+13U14*Remove 13|29s13
+15U14*List 13|37s13
+19X4*Buffer_Full 13|50r20
+19X17*Buffer_Empty 13|46r20
+X 13 main.adb
+6U11*Main 6b11 58l5 58t9
+8r4 My_Buffer{10|7R9} 27m17 27r17 29m20 29r20 35m24 35r24 37r18
+9i4 Command{integer} 21m14 22r15
+9i13 Elem{integer} 26m17 27r27 29m30 31r17
+10b4 Terminate_Program{boolean}
+46r15 E1{2|63R9} 49r52 49r85
+50r15 E2{2|63R9} 53r52 53r85
+

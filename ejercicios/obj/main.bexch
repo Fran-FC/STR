@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+/home/francesc/Documents/STR/ejercicios/ejercicios.gpr
+20191004085005
+[BOUND OBJECT FILES]
+/home/francesc/Documents/STR/ejercicios/obj/main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-L/home/francesc/Documents/STR/ejercicios/obj/
+-L/home/francesc/Documents/STR/ejercicios/obj/
+-L/usr/lib/gcc/x86_64-linux-gnu/7/adalib/
+-shared
+-shared-libgcc
+-lgnat-7
+[RUN PATH OPTION]
+/usr/lib/gcc/x86_64-linux-gnu/7/adalib/
+/usr/lib

@@ -1,0 +1,21 @@
+[GENERATED OBJECT FILE]
+b__prac_1.o
+[PROJECT FILES]
+/home/francesc/Documents/STR/practica1.gpr
+20190919103425
+[BOUND OBJECT FILES]
+/home/francesc/Documents/STR/obj/prac_1.o
+[GENERATED SOURCE FILES]
+b__prac_1.ads
+b__prac_1.adb
+b__prac_1.ali
+[RESULTING OPTIONS]
+-L/home/francesc/Documents/STR/obj/
+-L/home/francesc/Documents/STR/obj/
+-L/usr/lib/gcc/x86_64-linux-gnu/7/adalib/
+-shared
+-shared-libgcc
+-lgnat-7
+[RUN PATH OPTION]
+/usr/lib/gcc/x86_64-linux-gnu/7/adalib/
+/usr/lib

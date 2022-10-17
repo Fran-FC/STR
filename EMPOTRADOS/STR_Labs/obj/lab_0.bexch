@@ -1,0 +1,22 @@
+[GENERATED OBJECT FILE]
+b__lab_0.o
+[PROJECT FILES]
+/home/ALUMNO/frafolco/STR/STR_Labs/STR_Labs.gpr
+20191114103535
+/home/ALUMNO/frafolco/STR/ADL-2018/boards/stm32f407_discovery/stm32f407_discovery_full.gpr
+20180918162022
+[BOUND OBJECT FILES]
+/home/ALUMNO/frafolco/STR/STR_Labs/obj/lab_0.o
+[GENERATED SOURCE FILES]
+b__lab_0.ads
+b__lab_0.adb
+b__lab_0.ali
+[RESULTING OPTIONS]
+-L/home/ALUMNO/frafolco/STR/STR_Labs/obj/
+-L/home/ALUMNO/frafolco/STR/STR_Labs/obj/
+-L/home/ALUMNO/frafolco/STR/ADL-2018/boards/stm32f407_discovery/obj/full_lib_Production/
+-L/opt/GNAT/2018-arm-elf/arm-eabi/lib/gnat/ravenscar-full-stm32f4/adalib/
+-static
+-static-libgcc
+/opt/GNAT/2018-arm-elf/arm-eabi/lib/gnat/ravenscar-full-stm32f4/adalib/libgnarl.a
+/opt/GNAT/2018-arm-elf/arm-eabi/lib/gnat/ravenscar-full-stm32f4/adalib/libgnat.a
